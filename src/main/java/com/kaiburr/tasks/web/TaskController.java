@@ -1,7 +1,7 @@
 package com.kaiburr.tasks.web;
 
-import com.kaiburr.tasks.Task;
-import com.kaiburr.tasks.TaskExecution;
+import com.kaiburr.tasks.model.Task;
+import com.kaiburr.tasks.model.TaskExecution;
 import com.kaiburr.tasks.repo.TaskRepo;
 import com.kaiburr.tasks.service.CommandValidator;
 import com.kaiburr.tasks.service.ShellRunner;
