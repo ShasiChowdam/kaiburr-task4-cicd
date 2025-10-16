@@ -1,0 +1,9 @@
+target/*.original
+target/*.jar.asc
+target/test-classes
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+outputs
