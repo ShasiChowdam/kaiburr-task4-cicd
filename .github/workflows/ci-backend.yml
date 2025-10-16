@@ -23,7 +23,7 @@ jobs:
           cache: maven
 
       - name: Maven build (skip tests & test compile)
-  run: mvn -B -Dmaven.test.skip=true clean package
+        run: mvn -B -Dmaven.test.skip=true clean package
 
 
       - name: Upload JAR artifact
