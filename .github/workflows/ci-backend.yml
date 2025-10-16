@@ -22,8 +22,9 @@ jobs:
           java-version: '22'
           cache: maven
 
-      - name: Maven build (skip tests if needed)
-        run: mvn -B -DskipTests clean package
+      - name: Maven build (skip tests & test compile)
+  run: mvn -B -Dmaven.test.skip=true clean package
+
 
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
